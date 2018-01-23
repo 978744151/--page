@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    width:100%;
+
+}
+.page_content{
+    background: url('../images/score-bg.png') repeat-y;
+    background-size: 100% 100%;
+}
+.chest_box{
+    position: relative;
+    z-index: 99;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}
+.chest_box>div{
+    display: block;
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    background: url('../images/chest_bg.png');
+    background-size: 100% 100%;
+}
+.chest_box>div>img{
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+.chest_box>div>span{
+    position: absolute;
+    display: none;
+    left: 50%;
+    top: 24%;
+    height: 46%;
+    margin-left: -20%;
+}
+.chest_box>div>span>img{
+    height: 100%;
+}
+.lock{
+    background: none!important;
+}
+.lock>img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.lock>span{
+    display: block!important;
+}
+
+.chain_box{
+    position: absolute;
+    top: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}
+.chain_box>img{
+    display: block;
+    position: relative;
+    width: 34%;
+}
+.integral{
+    position:fixed;
+    left: 5%;
+    color: #f1de84;
+    font-size: 16px;
+    font-weight: 900;
+}
+.integral span{
+    color: white;
+}
+body{
+}
